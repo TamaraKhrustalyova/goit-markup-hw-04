@@ -195,29 +195,20 @@ body {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
 }
 
-.features-list-svg {
+.features-svg {
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
-}
-
-.features-icon {
     width: 264px;
     height: 112px;
     background-color: var(--additional-bg-cl);
-    
     padding: 24px 100px;
     border-radius: 4px;
-    text-align: center;
-}
-
-.features-desc {
-    flex-basis: calc((100% - 24*3px) / 4);
 }
 
 .section-mission {
